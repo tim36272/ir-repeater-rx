@@ -2,9 +2,9 @@
 #include <libHomeMesh.h>
 #include <IRremote.h>
 
-#define TX_PIN 2  //pin where your RF transmitter is connected
+#define TX_PIN 11  //pin where your RF transmitter is connected
 #define RX_PIN 0 //pin where your RF receiver is located
-#define IR_RX_PIN 3 //pin where your IR receiver is connected
+#define IR_RX_PIN 12 //pin where your IR receiver is connected
 #define IR_TX_PIN 4 //pin where your IR LED is connected (via transistor)
 #define IR_SIGNAL_TIMEOUT 5000 //maximum length, in microseconds, of a gap in an IR signal. Used to trigger IR sending
 #define IR_FREQ 38 // IR Frequency in kilohertz
